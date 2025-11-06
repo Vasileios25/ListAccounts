@@ -1,0 +1,17 @@
+[profile list-accounts]
+sso_session = LIST
+sso_account_id = <>
+sso_role_name  = ListAccounts
+region = <>
+
+
+[sso-session LIST]
+sso_start_url = <>
+sso_region    = <>
+sso_registration_scopes = sso:account:access
+
+
+[profile accounts]
+region = <>
+role_arn = <>
+source_profile = list-accounts
